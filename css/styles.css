@@ -1,0 +1,60 @@
+body {
+    background: rgb(78,6,145);
+    background: radial-gradient(circle, rgba(78,6,145,1) 0%, rgba(36,26,181,1) 0%, rgba(5,12,75,1) 82%);
+}
+
+header {
+    background: rgb(78,6,145);
+    background: radial-gradient(circle, rgba(78,6,145,1) 0%, rgba(44,38,120,1) 0%, rgba(0,0,0,1) 82%);
+}
+
+.background-personal {
+    background: rgb(127,0,178);
+    background: radial-gradient(circle, rgba(127,0,178,1) 0%, rgba(76,0,125,1) 0%, rgba(27,0,75,1) 82%);
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    margin-top: 2px;
+    padding: 5px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+}
+
+footer {
+    font-size: 14px;
+    background: rgb(78,6,145);
+    background: radial-gradient(circle, rgba(78,6,145,1) 0%, rgba(44,38,120,1) 0%, rgba(0,0,0,1) 82%);
+}
+
+footer h5 {
+    color: #ffffff;
+}
+
+footer p {
+    color: #d1d1d1;
+}
+
+footer a {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}

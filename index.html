@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Inicio / Header -->
+    <header class="text-white text-center py-5">
+        <h1>Bienvenido a Nuestra Empresa</h1>
+        <p>Tu eslogan aquí</p>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-kate-spade-an-american-luxury-fashion-design-house-fashion-color-tal-revivo.png" alt="external-kate-spade-an-american-luxury-fashion-design-house-fashion-color-tal-revivo"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Servicios -->
+    <section id="servicios" class="text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card background-personal text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio 1</h5>
+                            <p class="card-text">Descripción breve del servicio 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card background-personal text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio 2</h5>
+                            <p class="card-text">Descripción breve del servicio 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card background-personal text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio 3</h5>
+                            <p class="card-text">Descripción breve del servicio 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes-somos" class="text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Quiénes Somos</h2>
+            <p class="text-center">Aquí va la descripción de la empresa.</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/56955556666?text=Hola%2C%20necesito%20saber%20el%20valor%20de%20los%20productos" class="whatsapp-float" target="_blank">
+        <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+    </a>
+
+
+
+    <!-- Pie de Página -->
+    <footer class="text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <!-- Logo y Nombre de la Empresa -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">
+                        <img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-kate-spade-an-american-luxury-fashion-design-house-fashion-color-tal-revivo.png" alt="external-kate-spade-an-american-luxury-fashion-design-house-fashion-color-tal-revivo"/>
+                        Nuestra Empresa
+                    </h5>
+                    <p>Descripción breve de la empresa o eslogan.</p>
+                </div>
+
+                <!-- Enlaces a Secciones -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Secciones</h5>
+                    <p><a href="#home" class="text-white" style="text-decoration: none;">Home</a></p>
+                    <p><a href="#features" class="text-white" style="text-decoration: none;">Features</a></p>
+                    <p><a href="#pricing" class="text-white" style="text-decoration: none;">Pricing</a></p>
+                    <p><a href="#faqs" class="text-white" style="text-decoration: none;">FAQs</a></p>
+                    <p><a href="#about" class="text-white" style="text-decoration: none;">About</a></p>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Redes Sociales</h5>
+                    <p><a href="https://www.facebook.com/" class="text-white" style="text-decoration: none;"><img src="https://img.icons8.com/color/48/facebook.png" alt="Facebook" width="20"> Facebook</a></p>
+                    <p><a href="https://twitter.com/" class="text-white" style="text-decoration: none;"><img src="https://img.icons8.com/color/48/twitter.png" alt="Twitter" width="20"> Twitter</a></p>
+                    <p><a href="https://www.instagram.com/" class="text-white" style="text-decoration: none;"><img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram" width="20"> Instagram</a></p>
+                    <p><a href="https://www.linkedin.com/" class="text-white" style="text-decoration: none;"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="20"> LinkedIn</a></p>
+                </div>
+
+                <!-- Información de Contacto -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Contacto</h5>
+                    <p><i class="fas fa-home mr-3"></i> Santa Irma 11088, Chile</p>
+                    <p><i class="fas fa-envelope mr-3"></i> info@nuestraempresa.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> +56 9 5555 6666</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-left">© 2024 
+                        <a href="#" class="text-white" style="text-decoration: none;">
+                            <strong>Nuestra Empresa</strong>
+                        </a>
+                        - Todos los derechos reservados.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
